@@ -40,6 +40,20 @@ How to run the tests
 - The app also logs the measurement result using OnFrameMetricsAvailableListener, but it isn't
   exported to any external files. You can check those stats as well.
 
+Measurement result example
+---------------
+Here is the example measurement result.
+
+![Comparison example](/art/constraint-performance-comparison-example.png)
+unit: ms, Time taken in measure and layout phases average of 100 frames
+
+Measurement environment
+
+| Device | Nexus 5X |
+| :--------: | :----------: |
+| Android Version | 8.0 |
+| ConstraintLayout version | 1.0.2 |
+
 License
 -------
 
